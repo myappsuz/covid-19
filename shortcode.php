@@ -1,9 +1,9 @@
 <?php
 
-add_shortcode( "covid" , "phone_show");
+add_shortcode( "covid" , "covid_static");
 
 
-function phone_show(){
+function covid_static(){
   include "covid.php";
 }
 
